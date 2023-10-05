@@ -1,0 +1,15 @@
+---
+info:
+  title: Nmap
+  description: Nmap - the Network Mapper. Github mirror of official SVN repository.
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/nmap
+  x-cortex-tag: nmap
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: vm-scan-engine
+openapi: 3.0.1
+servers:
+- url: "/"
